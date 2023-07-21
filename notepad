@@ -1,0 +1,627 @@
+NAME:-RIDDHI JITENDRA CHIRMADE
+ROLL NO:- 46
+PRATICSL:- 3
+PRATICAL NAME:- Use git add to add the file to the repository use3 git commit to commit your change.
+
+
+91932@LAPTOP-DNJMSQST MINGW64 ~
+$ git clone https://github.com/riddhi-2303/KBCNMU1.git
+Cloning into 'KBCNMU1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+91932@LAPTOP-DNJMSQST MINGW64 ~
+$ cd KBCNMU1
+
+91932@LAPTOP-DNJMSQST MINGW64 ~/KBCNMU1 (main)
+$ git init KBCNMU1
+Initialized empty Git repository in C:/Users/91932/KBCNMU1/KBCNMU1/.git/
+
+91932@LAPTOP-DNJMSQST MINGW64 ~/KBCNMU1 (main)
+$ touch file.txt
+
+91932@LAPTOP-DNJMSQST MINGW64 ~/KBCNMU1 (main)
+$ git add file.txt
+
+91932@LAPTOP-DNJMSQST MINGW64 ~/KBCNMU1 (main)
+$ git commit -m"first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '91932@LAPTOP-DNJMSQST.(none)')
+
+91932@LAPTOP-DNJMSQST MINGW64 ~/KBCNMU1 (main)
+$ git config -- global user.email"riddhichirmade2000@gmail.com"
+error: key does not contain a section: global
+
+91932@LAPTOP-DNJMSQST MINGW64 ~/KBCNMU1 (main)
+$ git config --global user.email"riddhichirmade2000@gmail.com"
+
+91932@LAPTOP-DNJMSQST MINGW64 ~/KBCNMU1 (main)
+$ git config --global user.name"riddhi-2303"
+
+91932@LAPTOP-DNJMSQST MINGW64 ~/KBCNMU1 (main)
+$ git clone ^[[200~https://github.com/riddhi-2303/KBCNMU1.git~
+
+=====================================================================================================================================================================
+ 
+NAME:-Riddhi Jitendra Chirmade
+Roll no:-46
+Pratical no:-4
+Pratical Name:- Use git push to Send your change to the primary repository. Look online to see if         youchanges has been pushed.
+
+
+asd@comp128 MINGW64 ~
+$ git clone https://github.com/riddhi-2303/MyRepo.git
+Cloning into 'MyRepo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+asd@comp128 MINGW64 ~
+$ cd MyRepo
+
+asd@comp128 MINGW64 ~/MyRepo (main)
+$ touch MCA.txt
+
+asd@comp128 MINGW64 ~/MyRepo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MCA.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+asd@comp128 MINGW64 ~/MyRepo (main)
+$ git add MCA.txt
+
+asd@comp128 MINGW64 ~/MyRepo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   MCA.txt
+
+
+asd@comp128 MINGW64 ~/MyRepo (main)
+$ git commit -m "commit msg"
+[main 17e9007] commit msg
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 MCA.txt
+
+asd@comp128 MINGW64 ~/MyRepo (main)
+$ git push -u origin
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 269 bytes | 134.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/riddhi-2303/MyRepo.git
+   3fc9c6e..17e9007  main -> main
+branch 'main' set up to track 'origin/main'.
+
+=============================================================================================================================================================
+
+
+NAME:- RIDDHI JITENDRA CHIRMADE
+ROLLNO:-46
+ASSIGNMENT NO:-5
+ASSIGNMENT NAME:- Use git pull to get your partner change into your repository .verfity that you have the new file.
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1 (main)
+$ cd KBCNMU1
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git init KBCNMU1
+Initialized empty Git repository in C:/Users/HP/KBCNMU1/KBCNMU1/KBCNMU1/.git/
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git pull https://github.com/riddhi-2303/KBCNMU1.git
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.36 KiB | 26.00 KiB/s, done.
+From https://github.com/riddhi-2303/KBCNMU1
+ * branch            HEAD       -> FETCH_HEAD
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$
+
+
+====================================================================================================================================================================
+
+Name:- Riddhi Jitendra Chirmade			Rollno:-46
+Assignment no:-6
+Assignment Name:- Use Git log or git log less to see a list of changes to the repository.
+
+
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1 (main)
+$ cd KBCNMU1
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log
+commit 11dea5cb5b6431d1a0c958c684310fe2478b5131 (HEAD -> master)
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue May 23 19:50:44 2023 +0530
+
+    Add files via upload
+
+commit ee55315850cab27ab1dbcc33065d90e2e467fd22
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue Apr 11 15:21:33 2023 +0530
+
+    Initial commit
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --oneline
+11dea5c (HEAD -> master) Add files via upload
+ee55315 Initial commit
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --stat
+commit 11dea5cb5b6431d1a0c958c684310fe2478b5131 (HEAD -> master)
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue May 23 19:50:44 2023 +0530
+
+    Add files via upload
+
+ program1.cpp | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit ee55315850cab27ab1dbcc33065d90e2e467fd22
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue Apr 11 15:21:33 2023 +0530
+
+    Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --patch
+commit 11dea5cb5b6431d1a0c958c684310fe2478b5131 (HEAD -> master)
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue May 23 19:50:44 2023 +0530
+
+    Add files via upload
+
+diff --git a/program1.cpp b/program1.cpp
+new file mode 100644
+index 0000000..b4bd6a1
+--- /dev/null
++++ b/program1.cpp
+@@ -0,0 +1,16 @@
++#include<iostream>^M
++using namespace std;^M
++int main()^M
++{^M
++       int i,j,n=4;^M
++       ^M
++       for(int i=1;i<=n;i++)^M
++       {^M
++               for(int j=1;j<=i;j++)^M
++               {^M
++                       cout<<"*";^M
++               }^M
++               cout<<"\n";^M
++       }^M
++       //return 0;^M
++}
+\ No newline at end of file
+
+commit ee55315850cab27ab1dbcc33065d90e2e467fd22
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue Apr 11 15:21:33 2023 +0530
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..6bbfcbc
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# KBCNMU1
++MY REPOSITORY
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --graph
+* commit 11dea5cb5b6431d1a0c958c684310fe2478b5131 (HEAD -> master)
+| Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+| Date:   Tue May 23 19:50:44 2023 +0530
+|
+|     Add files via upload
+|
+* commit ee55315850cab27ab1dbcc33065d90e2e467fd22
+  Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+  Date:   Tue Apr 11 15:21:33 2023 +0530
+
+      Initial commit
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --graph --oneline
+* 11dea5c (HEAD -> master) Add files via upload
+* ee55315 Initial commit
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --after="2023-05-23"
+commit 11dea5cb5b6431d1a0c958c684310fe2478b5131 (HEAD -> master)
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue May 23 19:50:44 2023 +0530
+
+    Add files via upload
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --after="2023-04-11"
+commit 11dea5cb5b6431d1a0c958c684310fe2478b5131 (HEAD -> master)
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue May 23 19:50:44 2023 +0530
+
+    Add files via upload
+
+commit ee55315850cab27ab1dbcc33065d90e2e467fd22
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue Apr 11 15:21:33 2023 +0530
+
+    Initial commit
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --after="15 days ago"
+commit 11dea5cb5b6431d1a0c958c684310fe2478b5131 (HEAD -> master)
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue May 23 19:50:44 2023 +0530
+
+    Add files via upload
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --author="riddhi-2303"
+commit 11dea5cb5b6431d1a0c958c684310fe2478b5131 (HEAD -> master)
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue May 23 19:50:44 2023 +0530
+
+    Add files via upload
+
+commit ee55315850cab27ab1dbcc33065d90e2e467fd22
+Author: riddhi-2303 <128897279+riddhi-2303@users.noreply.github.com>
+Date:   Tue Apr 11 15:21:33 2023 +0530
+
+    Initial commit
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --author="riddhichirmade2000@gmail.com"
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$ git log --grep="KBCNMU1 commit"
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU1/KBCNMU1 (master)
+$
+
+===================================================================================================================================================================
+
+Name:- Riddhi Jitendra Chirmade			
+Rollno:-46
+Assignment no:-7
+Assignment Name:- Use git branch to create a new branch snd git checkout to switch to the branch.
+
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~
+$ git clone https://github.com/riddhi-2303/India.git
+Cloning into 'India'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~
+$ cd India
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (main)
+$ git init India
+Initialized empty Git repository in C:/Users/HP/India/India/.git/
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (main)
+$ git branch firstbranch
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (main)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (firstbranch)
+$ touch India2.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (firstbranch)
+$ add India2.txt
+bash: add: command not found
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (firstbranch)
+$ git commit -m "First commit of branch first"
+On branch firstbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        India/
+        India2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (firstbranch)
+$ git add India2.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (firstbranch)
+$ git commit -m "First commit of branch first"
+[firstbranch 993fe72] First commit of branch first
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 India2.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (firstbranch)
+$ git push -u origin firstbranch
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 287 bytes | 287.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'firstbranch' on GitHub by visiting:
+remote:      https://github.com/riddhi-2303/India/pull/new/firstbranch
+remote:
+To https://github.com/riddhi-2303/India.git
+ * [new branch]      firstbranch -> firstbranch
+branch 'firstbranch' set up to track 'origin/firstbranch'.
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/India (firstbranch)
+$
+
+=======================================================================================================================================================================
+
+Name:- Riddhi Jitendra Chirmade			
+Rollno:-46
+Assignment no:-8
+Assignment Name:- use git merge your change to the primary change
+
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~
+$ git clone https://github.com/riddhi-2303/KBCNMU.git
+Cloning into 'KBCNMU'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~
+$ cd KBCNMU
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (main)
+$ touch file.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (main)
+$ git add file.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (main)
+$ git commit -m "first commit"
+[main 07c1707] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 277 bytes | 138.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/riddhi-2303/KBCNMU.git
+   cde95b3..07c1707  main -> main
+branch 'main' set up to track 'origin/main'.
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (main)
+$ git branch branch1
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (main)
+$ git checkout branch1
+Switched to branch 'branch1'
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (branch1)
+$ touch file2.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (branch1)
+$ git add file2.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (branch1)
+$ git commit -m "second commit"
+[branch1 8fee4e0] second commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file2.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (branch1)
+$ git push -u origin branch1
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 274 bytes | 274.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'branch1' on GitHub by visiting:
+remote:      https://github.com/riddhi-2303/KBCNMU/pull/new/branch1
+remote:
+To https://github.com/riddhi-2303/KBCNMU.git
+ * [new branch]      branch1 -> branch1
+branch 'branch1' set up to track 'origin/branch1'.
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (branch1)
+$ git merge main branch1
+Already up to date.
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (branch1)
+$ git branch --list
+* branch1
+  main
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (branch1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (main)
+$ git pull https://github.com/riddhi-2303/KBCNMU.git
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 622 bytes | 77.00 KiB/s, done.
+From https://github.com/riddhi-2303/KBCNMU
+ * branch            HEAD       -> FETCH_HEAD
+Updating 07c1707..36eb1e2
+Fast-forward
+ file2.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file2.txt
+
+HP@LAPTOP-AUF4VH58 MINGW64 ~/KBCNMU (main)
+$
+
+==========================================================================================================================================================
+
+Name:-Riddhi Chirmade
+Roll No:-46
+Practical No:-9
+Practical Name:- Demonstrate the use of git diff command
+
+admin@DESKTOP-K3MVO4B MINGW64 ~
+$ git clone https://github.com/riddhi-2303/KBCNMU2.git
+Cloning into 'KBCNMU2'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+
+admin@DESKTOP-K3MVO4B MINGW64 ~
+$ cd KBCNMU2
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (main)
+$ git diff
+diff --git a/MCA b/MCA
+index 911ae62..fabf2b1 100644
+--- a/MCA
++++ b/MCA
+@@ -1 +1,2 @@
+ Hii,Riddhi here
++Hello Riddhi How are you?
+\ No newline at end of file
+diff --git a/MCA2 b/MCA2
+index 8312b10..61b19d7 100644
+--- a/MCA2
++++ b/MCA2
+@@ -1 +1 @@
+-hi ,this is second file
++Hello Riddhi
+\ No newline at end of file
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (main)
+$ git diff --color-words
+diff --git a/MCA b/MCA
+index 911ae62..fabf2b1 100644
+--- a/MCA
++++ b/MCA
+@@ -1 +1,2 @@
+Hii,Riddhi here
+Hello Riddhi How are you?
+diff --git a/MCA2 b/MCA2
+index 8312b10..61b19d7 100644
+--- a/MCA2
++++ b/MCA2
+@@ -1 +1 @@
+hi ,this is second fileHello Riddhi
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (main)
+$ git branch branch2
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (main)
+$ git checkout branch2
+Switched to branch 'branch2'
+M       MCA
+M       MCA2
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (branch2)
+$ touch branch2.txt
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (branch2)
+$ git add branch2.txt
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (branch2)
+$ git commit -m "first commit diff"
+[branch2 a361c70] first commit diff
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 branch2.txt
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (branch2)
+$ git diff main branch2
+diff --git a/branch2.txt b/branch2.txt
+new file mode 100644
+index 0000000..e69de29
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (branch2)
+$ git diff main branch2 --name-only
+branch2.txt
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (branch2)
+$ git diff main
+diff --git a/MCA b/MCA
+index 911ae62..fabf2b1 100644
+--- a/MCA
++++ b/MCA
+@@ -1 +1,2 @@
+ Hii,Riddhi here
++Hello Riddhi How are you?
+\ No newline at end of file
+diff --git a/MCA2 b/MCA2
+index 8312b10..61b19d7 100644
+--- a/MCA2
++++ b/MCA2
+@@ -1 +1 @@
+-hi ,this is second file
++Hello Riddhi
+\ No newline at end of file
+diff --git a/branch2.txt b/branch2.txt
+new file mode 100644
+index 0000000..e69de29
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (branch2)
+$ git diff main...branch2
+diff --git a/branch2.txt b/branch2.txt
+new file mode 100644
+index 0000000..e69de29
+
+admin@DESKTOP-K3MVO4B MINGW64 ~/KBCNMU2 (branch2)
+$
+
+ 
+
+
+
+
+ 
+
+ 
+
